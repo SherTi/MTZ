@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Lj6cKNxMdDIinARAdZ3YoW9fN8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Work/MarketPlace/MarketPlace",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="" />
+      <created>1676372225479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676372225479</updated>
+      <workItem from="1676372227125" duration="46965000" />
+      <workItem from="1676642423082" duration="11382000" />
+      <workItem from="1676741331361" duration="10779000" />
+      <workItem from="1676812345033" duration="739000" />
+      <workItem from="1676909390162" duration="10859000" />
+      <workItem from="1676994971028" duration="8461000" />
+      <workItem from="1677168986768" duration="9814000" />
+      <workItem from="1677320057119" duration="66000" />
+      <workItem from="1677428885752" duration="9318000" />
+      <workItem from="1677762493464" duration="1458000" />
+      <workItem from="1677834082976" duration="17000" />
+      <workItem from="1677913241407" duration="2000" />
+      <workItem from="1678090301313" duration="44000" />
+      <workItem from="1678187527034" duration="1522000" />
+      <workItem from="1678454899973" duration="489000" />
+      <workItem from="1678613715523" duration="2966000" />
+      <workItem from="1678626943770" duration="1699000" />
+      <workItem from="1678693010892" duration="2000" />
+      <workItem from="1678700512801" duration="10625000" />
+      <workItem from="1678787324739" duration="4648000" />
+      <workItem from="1678867538408" duration="3014000" />
+      <workItem from="1678877183757" duration="1991000" />
+      <workItem from="1679301205183" duration="2846000" />
+      <workItem from="1679306677836" duration="14000" />
+      <workItem from="1679650938709" duration="640000" />
+      <workItem from="1679651607741" duration="31000" />
+      <workItem from="1679651705778" duration="341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
