@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="" />
+    <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Book_Cover_Mockup 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Book_Cover_Mockup 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main-page/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main-style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,20 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/MarketPlace/MarketPlace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/MTZ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +82,19 @@
       <workItem from="1679306677836" duration="14000" />
       <workItem from="1679650938709" duration="640000" />
       <workItem from="1679651607741" duration="31000" />
-      <workItem from="1679651705778" duration="341000" />
+      <workItem from="1679651705778" duration="1036000" />
+      <workItem from="1679917287218" duration="49000" />
+      <workItem from="1680347650275" duration="2737000" />
+      <workItem from="1680356518843" duration="16000" />
+      <workItem from="1680539524905" duration="334000" />
+      <workItem from="1680607738149" duration="60000" />
+      <workItem from="1680701887453" duration="734000" />
+      <workItem from="1680778431732" duration="4680000" />
+      <workItem from="1680865501970" duration="2227000" />
+      <workItem from="1680957509912" duration="9090000" />
+      <workItem from="1680968281171" duration="46000" />
+      <workItem from="1680968341550" duration="101000" />
+      <workItem from="1680968451304" duration="2048000" />
     </task>
     <servers />
   </component>

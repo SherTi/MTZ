@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
+    -webkit-transition: all .3s;
     transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
 }
 
 body {
@@ -48,7 +51,7 @@ input{
     border: none;
 }
 .container{
-    padding: 0 calc((100% - 1460px )/2);
+    padding: 0 calc((100% - 1441px )/2);
 }
 .header{
     display: flex;
@@ -263,21 +266,29 @@ input{
     border-radius: 16px;
     font-size: 26px;
     color: #ffffff;
-    margin-top: 40px;
     position: relative;
     cursor: pointer;
+    transition: all .2s;
 }
-.catalog-btn:hover{
-    box-shadow:  0 5px  1px #01449F;
+.catalog-btn-link{
+    width: 394px;
+    height: 98px;
+    box-shadow: 0 6px 1px #01449F;
+    display: block;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.catalog-btn:active{
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #01449F;
+    transition: all .2s;
 }
 .catalog-btn::after{
     content: url("assets/Book_Cover_Mockup 1.png");
-    width: 100%;
-    height: 100%;
     display: block;
     position: absolute;
-    right: -152px;
-    top: -15px;
+    right: -10px;
+    top: -7px;
 
 }
 .title-p{
@@ -337,45 +348,19 @@ input{
     letter-spacing: 1px;
     color: #2A84FF;
 }
-.s-c-title-block{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 40px;
-    position: relative;
-    height: 150px;
-    border: 1px solid rgba(187, 187, 187, 0.5);
-    border-radius: 8px;
-}
 .c-b-title{
-    width: 40%;
-    text-align: center;
-    font-style: normal;
-    font-size: 30px;
+    font-size: 24px;
+    color: #222222;
     font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 40px;
 }
-.flag01{
-    position: absolute;
-    top: 0;
-    left: 0;
+.s-c-title-block{
+    width: 50%;
+    margin-right: 30px;
 }
-.flag02{
-    position: absolute;
-    bottom: 0;
-    left: 154px;
-}
-.flag03{
-    position: absolute;
-    bottom: 0;
-    right: 74px;
-}
-.flag04{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.s-c-block{
+    padding: 30px 45px;
+    width: 50%;
+    text-align: right;
 }
 .s-c-card-b{
     display: flex;
@@ -384,11 +369,11 @@ input{
 }
 .s-c-card{
     display: flex;
-    border: 1px solid rgba(187, 187, 187, 0.5);
+    border: 3px dashed rgba(187, 187, 187, 0.5);
     border-radius: 8px;
     height: 150px;
     width: 50%;
-    justify-content: space-between;
+    position: relative;
 }
 .s-c-card-title{
     font-size: 20px;
@@ -397,12 +382,24 @@ input{
     margin-bottom: 10px;
 }
 .s-c-card-content{
-    padding: 20px 0 30px 30px;
-    width: 60%;
+    padding: 20px 0 30px 74px;
+    width: 100%;
 }
 .s-c-card-des{
     font-size: 18px;
     line-height: 22px;
+}
+.s-c-card-img{
+    background: linear-gradient(180deg, rgba(87, 158, 255, 0.9) 0%, rgba(0, 97, 231, 0.9) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 40%;
+    left: -20px;
 }
 .mar-30{
     margin-right: 30px;
@@ -499,23 +496,21 @@ input{
     width: 450px;
     height: 500px;
     border-radius: 32px;
+    overflow: hidden;
+    cursor: pointer;
 }
-.bg-01{
-    background: url("assets/file-for-img.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.f-f-img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
 }
-.bg-02{
-    background: url("assets/f-f-img2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.f-f-card:hover .f-f-img{
+    transform: scale(1.1);
 }
-.bg-03{
-    background: url("assets/f-f-img3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.f-f-card:hover .f-f-text{
+    text-decoration: underline;
+    transition:all 3s;
 }
-
 .mar-60-60{
     margin: 0 58px;
 }
@@ -525,6 +520,7 @@ input{
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0.5px;
+    transition:all 3s;
 }
 .p-m-block{
     margin-top: 50px;

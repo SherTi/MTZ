@@ -7,6 +7,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         effect: 'slide',
         width: 1200,
         margin: 30,
+        autoplay: {
+            delay:500,
+        },
     });
     const swiper1 = new Swiper('.certificate-slider' , {
         direction: 'horizontal',
