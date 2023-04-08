@@ -278,7 +278,7 @@ input{
     margin-top: 40px;
     border-radius: 16px;
 }
-.catalog-btn:active{
+.catalog-btn:hover{
     transform: translateY(6px);
     box-shadow: 0 0 0 #01449F;
     transition: all .2s;
@@ -573,7 +573,7 @@ input{
     cursor: pointer;
 }
 .p-m-btn:hover{
-    box-shadow: 0 5px 1px #01449F;
+    background: linear-gradient(#0061E7  0% , #579EFF  100%);
 }
 .p-m-card-content{
     width: 40%;
