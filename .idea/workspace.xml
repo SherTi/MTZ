@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-style.css" afterDir="false" />
     </list>
@@ -35,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/MTZ",
+    "last_opened_file_path": "D:/Work/Golden-cement-rus-lang",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +94,9 @@
       <workItem from="1680968341550" duration="101000" />
       <workItem from="1680968451304" duration="4651000" />
       <workItem from="1681039984435" duration="27000" />
-      <workItem from="1681383933009" duration="8757000" />
+      <workItem from="1681383933009" duration="8924000" />
+      <workItem from="1681472269367" duration="799000" />
+      <workItem from="1681645621487" duration="6585000" />
     </task>
     <servers />
   </component>

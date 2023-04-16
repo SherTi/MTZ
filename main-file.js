@@ -10,6 +10,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
         autoplay: {
             delay:500,
         },
+        breakpoints: {
+            430:{
+                slidesPerView:2,
+                width:400
+            }
+        }
     });
     const swiper1 = new Swiper('.certificate-slider' , {
         direction: 'horizontal',
