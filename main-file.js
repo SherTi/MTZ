@@ -5,17 +5,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         slidesPerGroup: 1,
         loop: true,
         effect: 'slide',
-        width: 1200,
+        width:1200,
         margin: 30,
         autoplay: {
             delay:500,
         },
-        breakpoints: {
-            430:{
-                slidesPerView:2,
-                width:400
-            }
-        }
     });
     const swiper1 = new Swiper('.certificate-slider' , {
         direction: 'horizontal',
