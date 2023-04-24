@@ -1192,37 +1192,10 @@ input{
 .mar-b-10{
     margin-bottom: 10px;
 }
-.f-connect-sys{
-    width: 248px;
-    border-radius: 6px ;
-    background: #ffffff;
-    font-size: 14px;
-    color:#0A142F;
-    padding: 18px 0 15px 15px;
-    margin-bottom: 20px;
-}
-.f-connect-block{
-    position: relative;
-    display: inline;
-}
 .prop-block{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-}
-.nav-icon{
-    width: 12px;
-    height: 15px;
-    fill: #ffffff;
-}
-.f-c-s-nav-icon{
-    width: 50px;
-    height: 49px;
-    text-align: center;
-    border-radius: 0 6px 6px 0;
-    background: #478EFF;
-    position: absolute;
-    right: 0;
 }
 .p-b-soc-cell:hover{
     background: rgba(248, 248, 248, 0.5);
@@ -1238,7 +1211,6 @@ input{
 .p-b-name{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .p-b-soc-cell{
     width: 35px;
@@ -1251,7 +1223,7 @@ input{
     background: transparent;
 }
 .p-b-soc{
-    display: flex;
+    display: inline-flex;
 }
 .mar-l-r-15{
     margin: 0 15px;
@@ -1268,6 +1240,19 @@ input{
 }
 .f-num-tex{
     color: #ffffff;
+}
+.f-size{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+}
+.f-info_context{
+    text-align: center;
+    display: flex;
+    width: 63%;
+    justify-content: space-between;
 }
 @media (max-width: 2560px) {
     .title-block{
@@ -1491,5 +1476,57 @@ input{
     }
     .p-m-card{
         margin-bottom: 20px;
+        align-items: center;
+    }
+    .p-m-card-img{
+        width: 278px;
+        height: 230px;
+    }
+/*    footer*/
+    .f-block-b{
+        align-items: center;
+        padding: 60px 0 0 0;
+    }
+    .f-logo-block {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .f-block-b{
+        text-align: center;
+        flex-direction: column;
+    }
+    .f-sec-b{
+        width: 50%;
+    }
+    .f-des-logo{
+        width: 50%;
+    }
+    .f-nav-panel{
+        margin-bottom: 50px;
+    }
+    .p-b-soc{
+        margin-top: 25px;
+    }
+    .prop-block{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .f-info_context{
+        width: 100%;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .f-size{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .mob_mar-30{
+        margin-bottom: 30px;
     }
 }
