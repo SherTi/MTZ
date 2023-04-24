@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property-tractor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-tractor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prorerty-seat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prorerty-seat/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +39,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/iProduct.uz&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/night/OneDrive/Рабочий стол/FG&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;rsyncConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -101,6 +105,8 @@
       <workItem from="1681822538831" duration="3621000" />
       <workItem from="1682248343431" duration="760000" />
       <workItem from="1682273928239" duration="4641000" />
+      <workItem from="1682324990407" duration="16354000" />
+      <workItem from="1682348476849" duration="1835000" />
     </task>
     <servers />
   </component>

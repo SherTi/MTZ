@@ -1,16 +1,61 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    const swiper = new Swiper('.swiper',{
+    const partner_swiper = new Swiper('.partner_swiper',{
         direction: 'horizontal',
-        slidesPerView: 5,
-        slidesPerGroup: 1,
-        loop: true,
         effect: 'slide',
-        width:1200,
         margin: 30,
         autoplay: {
-            delay:500,
+            delay:600,
         },
+        breakpoints: {
+            1080:{
+                slidesPerView: 5,
+                slidesPerGroup: 1,
+                width:1200,
+                loop: true,
+            },
+            425:{
+                slidesPerView:5,
+                slidesPerGroup:1,
+                width:750,
+                loop: true,
+            },
+            375:{
+                slidesPerView:5,
+                slidesPerGroup:1,
+                width:750,
+                loop: true,
+            },
+            320:{
+                slidesPerView:5,
+                slidesPerGroup:1,
+                width:750,
+                loop: true,
+            }
+        }
+
     });
+    // breakpoints: {
+    //                 1080:{
+    //                     slidesPerView: 2,
+    //                     slidesPerGroup: 1,
+    //                 },
+    //                  320: {
+    //                      slidesPerView: 1,
+    //                      slidesPerGroup: 1,
+    //                      loop:true
+    //                 },
+    //                 400: {
+    //                     slidesPerView: 1,
+    //                     slidesPerGroup: 1,
+    //                 },
+    //                 430: {
+    //                     slidesPerView: 1,
+    //                     slidesPerGroup: 1,
+    //                 },
+    //                 2560:{
+    //                   slidesPerView: 2,
+    //                   slidesPerGroup : 1,
+    //                 },
     const swiper1 = new Swiper('.certificate-slider' , {
         direction: 'horizontal',
         slidesPerView: 4,
