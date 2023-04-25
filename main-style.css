@@ -215,6 +215,9 @@ input{
 .mar-b-15{
     margin-bottom: 15px;
 }
+.btn_nav_panel{
+    display: none;
+}
 /*header*/
 /*main-page-style*/
 .background{
@@ -1318,6 +1321,9 @@ input{
     display: flex;
     justify-content: end;
 }
+/**/
+.background_r-nav-menu{
+}
 @media (max-width: 2560px) {
     .title-block{
         margin-bottom: 115px;
@@ -1336,6 +1342,17 @@ input{
     .nav-panel-main{
         margin-left: 20px;
     }
+    .btn_nav_panel{
+        padding: 6px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #0061E7;
+    }
+    .header{
+        height: 100px;
+    }
     .logo{
         height: 100%;
     }
@@ -1345,10 +1362,22 @@ input{
     }
     .nav-up{
         justify-content: normal;
+        margin-bottom: 0;
+    }
+    .eclipse::after {
+        left: -30px;
+        top: 25%;
+    }
+    .rou::after {
+        left: -30px;
+        top: 25%;
     }
     .title-text{
         font-size: 50px;
         width: 100%;
+    }
+    .nav-b{
+        margin-left: 36px;
     }
     .background{
         height: 100%;
@@ -1627,6 +1656,60 @@ input{
     }
     .p-ul-des-text{
         font-size: 16px;
+    }
+    .tab_mar-t-20{
+        margin-top: 20px;
+    }
+    .background_r-nav-menu{
+        display: flex;
+        justify-content: end;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(34, 34, 34, 0.5);
+    }
+    .r-nav-menu{
+        width: 50%;
+        background: #ffffff;
+        height: 100vh;
+        padding: 100px 25px;
+    }
+    .btn_nav_panel{
+        position: relative;
+        z-index: 100;
+    }
+    .r-n-block_link{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .r-nav-title-text{
+        font-size: 16px;
+    }
+    .r-nav-text-link{
+        font-size: 14px;
+        padding-bottom: 24px;
+    }
+    .r-nav button{
+        background: transparent;
+    }
+    .r-n-block_link{
+        padding-top: 24px;
+        border-top: 1px solid #CCCCCC;
+        border-bottom: 1px solid #cccccc;
+    }
+    .r-nav-title-text{
+        padding: 30px 0 ;
+    }
+    .header{
+        position: fixed;
+        z-index: 100;
+    }
+    .btn_nav_panel{
+        margin-left: 40px;
     }
     /*footer*/
     .tablet_footer{
@@ -1956,6 +2039,9 @@ input{
     .tablet_text_a-u{
         display: none;
     }
+    .catalog-btn-link{
+        height: 73px;
+    }
 /*    contact*/
     .contact-block{
         flex-direction: column;
@@ -2014,6 +2100,9 @@ input{
     }
     .p-item-block{
         padding-left:40px ;
+    }
+    .r-nav-menu{
+        width: 100%;
     }
 /*    footer*/
     .f-block-b{
