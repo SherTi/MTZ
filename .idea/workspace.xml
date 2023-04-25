@@ -7,6 +7,10 @@
     <list default="true" id="71f36a65-2323-4dda-a0cb-54a038ff8649" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-spare-parts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-spare-parts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-tractors-models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-tractors-models/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-style.css" afterDir="false" />
@@ -107,6 +111,7 @@
       <workItem from="1682273928239" duration="4641000" />
       <workItem from="1682324990407" duration="16354000" />
       <workItem from="1682348476849" duration="1835000" />
+      <workItem from="1682356857703" duration="15835000" />
     </task>
     <servers />
   </component>
