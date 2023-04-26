@@ -127,9 +127,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
             }
         })
     })
-    let swipe_block = document.querySelectorAll('.r-nav-menu_tablet');
-    document.querySelectorAll('.r-nav-title-btn').forEach((block) => {
-        block.addEventListener('click' ,() =>{
+    const swipe_block = document.querySelectorAll('.r-nav-menu_tablet');
+    document.querySelectorAll('.r-nav-title-btn').forEach((el) => {
+        el.addEventListener('click' ,() =>{
             document.querySelectorAll('.r-nav-icon').forEach((el) =>{
                 el.classList.toggle('b-icon')
                 swipe_block.forEach((el) =>{
@@ -137,5 +137,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 });
             })
         })
+    });
+
+    const search_icon = document.querySelector('.search-input-block')
+    // ('.element'), ':before'
+    const search_input = document.querySelector('.search-input-block')
+    search_icon.addEventListener('click' ,  () => {
+        console.log('123123123123');
     })
 });

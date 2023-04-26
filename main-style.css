@@ -1717,7 +1717,7 @@ input{
     }
     .r-nav-title-text{
         font-size: 14px;
-        padding: 30px 0 ;
+        padding: 0 0 30px 0 ;
         text-transform: uppercase;
     }
     .r-nav-text-link{
@@ -1728,20 +1728,19 @@ input{
         background: transparent;
         width: 100%;
         display: flex;
-        align-items: center;
     }
     .btn_nav_panel{
         margin-left: 40px;
     }
     .r-nav-menu_tablet{
         border-left: 1px solid #CCCCCC;
-        width: 332px;
+        width: 310px;
         background: #ffffff;
         height: 100vh;
         padding: 68px 0 0 25px;
         position: relative;
         z-index: -99;
-        display:none;
+        transform: translate(-200%);
     }
     .r-n-block_link{
         display: none;
@@ -1801,8 +1800,19 @@ input{
         display: flex;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     }
+    .nav-block1{
+        padding: 25px 30px 26px 30px;
+        background: #ffffff;
+        width: 340px;
+    }
+    .nav-left-panel li {
+        margin: 25px 0;
+    }
+    .title-nav-left p{
+        margin-bottom: 35px;
+    }
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .container{
         padding: 0 25px;
     }
@@ -2015,9 +2025,6 @@ input{
     .p-m-btn{
         width: 100%;
     }
-    .s-c-title{
-        margin-bottom: 20px;
-    }
     .p-m-card{
         margin-bottom: 20px;
         align-items: center;
@@ -2082,6 +2089,9 @@ input{
     }
     .catalog-btn-link{
         height: 73px;
+    }
+    .r-nav-menu_tablet{
+        display: none;
     }
 /*    contact*/
     .contact-block{
@@ -2208,6 +2218,35 @@ input{
     .border_def{
         display: none;
     }
+    .swipe_block{
+        display: none;
+    }
+    .nav-block1{
+        width: 50%;
+    }
+    .nav-block2{
+        width: 50%;
+    }
+    .img-item-n {
+        margin: 30px 30px 20px 30px;
+        width: 72%;
+    }
+    .search-input-block{
+        max-width: 36px;
+    }
+    .search-input-block:after {
+        content: url(assets/search-normal.png);
+        font-size: 14px;
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+    }
+    .search-input{
+        padding: 8px 14px;
+    }
+    .on_maxWeight{
+        max-width: 100%;
+    }
 }
 @media (max-width: 375px) {
     .title-text{
@@ -2229,5 +2268,8 @@ input{
 @media (max-width: 320px) {
     .link-title-pages p{
         font-size: 8px;
+    }
+    .btn_nav_panel{
+        right: 25px;
     }
 }
