@@ -102,4 +102,40 @@ window.addEventListener('DOMContentLoaded', (event) => {
             icon_active[i].classList.toggle('active_icon')
         })
     }
+
+
+    let btn_menu = document.querySelector('.btn_nav_panel')
+    let menu_body = document.querySelector('.background_r-nav-menu')
+    btn_menu.addEventListener('click' , (event) => {
+        event.preventDefault()
+        menu_body.classList.toggle('active_menu')
+    })
+    menu_body.addEventListener('click', (event) => {
+        if(event.target.classList.contains('background_r-nav-menu')){
+            menu_body.classList.remove('active_menu')
+        }
+    })
+
+    document.querySelectorAll('.r-nav-title-btn').forEach((el) => {
+        el.addEventListener('click', () => {
+            let content = el.nextElementSibling;
+            if (content.style.maxHeight) {
+                document.querySelectorAll('.r-n-block_link').forEach((el) => el.style.maxHeight = null )
+            }else {
+                document.querySelectorAll('.r-n-block_link').forEach((el) => el.style.maxHeight = null)
+                content.style.maxHeight = content.scrollHeight + 'px'
+            }
+        })
+    })
+    let swipe_block = document.querySelectorAll('.r-nav-menu_tablet');
+    document.querySelectorAll('.r-nav-title-btn').forEach((block) => {
+        block.addEventListener('click' ,() =>{
+            document.querySelectorAll('.r-nav-icon').forEach((el) =>{
+                el.classList.toggle('b-icon')
+                swipe_block.forEach((el) =>{
+                    el.classList.add('swipe_block')
+                });
+            })
+        })
+    })
 });
