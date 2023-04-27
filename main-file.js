@@ -138,11 +138,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
             })
         })
     });
-
-    const search_icon = document.querySelector('.search-input-block')
-    // ('.element'), ':before'
-    const search_input = document.querySelector('.search-input-block')
-    search_icon.addEventListener('click' ,  () => {
-        console.log('123123123123');
-    })
 });

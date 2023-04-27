@@ -92,8 +92,9 @@ input{
 }
 .rou::after{
     content:"";
-    left: -34px;
-    top: 12%;
+    left: 0;
+    bottom: 0;
+    transform: translateY(-50%);
     display: block;
     width: 12px;
     height: 12px;
@@ -103,8 +104,9 @@ input{
 }
 .eclipse::after{
     content: "";
-    left: -60px;
-    top: 12%;
+    left: 0;
+    top: 0;
+    transform: translateY(50%);
     display: block;
     width: 12px;
     height: 12px;
@@ -322,17 +324,18 @@ input{
 .patner-main-item{
     margin-bottom: 110px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 .patner-main-item:after{
     content: '';
     background: url("assets/Group 1.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: top;
     width: 100%;
-    height: 648px;
+    height: 510px;
     position: absolute;
-    top: -117%;
+    top: -157%;
     z-index: -1;
 }
 .special-conditions-area{
@@ -1201,6 +1204,35 @@ input{
 .des_tab_btn-p-nav-panel{
     display: flex;
 }
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.info_block{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(270deg, #0061E7 0%, #579EFF 100%);
+    box-shadow: 0 4px 16px rgba(0, 97, 231, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+    z-index: 99;
+}
+.info_container{
+    display: flex;
+    justify-content: end;
+    padding: 50px 222px;
+}
+.info_img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
 /*Footer*/
 .footer-block{
     display: flex;
@@ -1373,9 +1405,76 @@ input{
     border: none;
     transition: all .3s;
 }
-@media (max-width: 2560px) {
-    .title-block{
-        margin-bottom: 115px;
+@media (max-width: 2685px) {
+    .patner-main-item:after {
+        background-size: cover;
+        top: -165%;
+    }
+    .background{
+        height: 1550px;
+    }
+    .info_container{
+        padding: 50px 260px;
+        height: 65%;
+        align-items: center;
+    }
+}
+@media (max-width: 2240px) {
+    .background{
+        height: 1320px;
+    }
+    .patner-main-item:after {
+        top: -135%;
+    }
+    .info_container{
+        align-items: start;
+    }
+}
+@media (max-width: 1440px) {
+    .container{
+        padding: 0 calc((100% - 1300px )/2);
+    }
+    .background {
+        height: 990px;
+    }
+    .patner-main-item:after {
+        background-size: contain;
+        top: -90%;
+    }
+    .title-p{
+        padding-left: 62px;
+    }
+    .info_container{
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        padding: 0 calc((100% - 900px )/2);
+    }
+    .s-c-card{
+        height: 200px;
+    }
+    .background {
+        height: 990px;
+    }
+    .a-c-img{
+        margin-right: 140px;
+    }
+    .a-c-img_item{
+        width: 428px;
+    }
+    .f-f-img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .f-f-card{
+        width: 300px;
+        height: 300px;
+    }
+    .bg-f-f-card{
+        bottom: 16px;
     }
 }
 @media (max-width: 768px) {
@@ -1400,7 +1499,7 @@ input{
         border: 1px solid #0061E7;
     }
     .header{
-        height: 100px;
+        height: 85px;
     }
     .logo{
         height: 100%;
@@ -1413,14 +1512,6 @@ input{
         justify-content: normal;
         margin-bottom: 0;
     }
-    .eclipse::after {
-        left: -30px;
-        top: 25%;
-    }
-    .rou::after {
-        left: -30px;
-        top: 25%;
-    }
     .title-text{
         font-size: 50px;
         width: 100%;
@@ -1429,7 +1520,7 @@ input{
         margin-left: 36px;
     }
     .background{
-        height: 100%;
+        height: 800px;
         background: url("/assets/Background.png");
     }
     .title-block{
@@ -1842,7 +1933,7 @@ input{
         height: 748px;
     }
     .patner-main-item:after{
-        top: -40%;
+        top: -46%;
     }
     .title-text{
         font-size: 30px;
