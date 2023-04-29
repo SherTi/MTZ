@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    const partner_swiper = new Swiper('.partner_swiper',{
+    const partner_swiper = new Swiper(document.querySelector('.partner_swiper'),{
         direction: 'horizontal',
         effect: 'slide',
         margin: 30,
@@ -136,22 +136,27 @@ window.addEventListener('DOMContentLoaded', (event) => {
         })
     })
     let swipe_block = document.querySelectorAll('.r-nav-menu_tablet');
-    document.querySelectorAll('.r-nav-title-btn').forEach((el) => {
-        el.addEventListener('click' ,(event) =>{
-            document.querySelectorAll('.r-nav-icon').forEach((el) =>{
-                event.preventDefault()
-                if (event){
-                    el.classList.toggle('b-icon')
-                }
-                swipe_block.forEach((el) =>{
-                    el.classList.add('swipe_block')
-                    if(event.target.classList.contains('swipe_block')) {
-                        swipe_block.classList.remove('swipe_block')
-                    }
-                });
+    if(swipe_block){
+        document.querySelectorAll('.r-nav-title-btn').forEach((el) => {
+            el.addEventListener('click' ,(event) =>{
+                document.querySelectorAll('.r-nav-icon').forEach((el) =>{
+                    swipe_block.forEach((el) =>{
+                        el.classList.add('swipe_block')
+                        if (swipe_block.classList.contains('swipe_block')){
+                            swipe_block.classList.remove('swipe_block')
+                        }
+                    });
+                })
             })
+        });
+    }
+    let icon_change = document.querySelector('.r-nav-icon')
+    let btn_change = document.querySelector('.r-nav-title-btn')
+    if (btn_change){
+        btn_change.addEventListener('click' , () => {
+            icon_change.classList.toggle('b-icon')
         })
-    });
+    }
     let order_btn = document.querySelector('.p-btn-more-info')
     let order_box = document.querySelector('.modal_container')
     if(order_btn){
