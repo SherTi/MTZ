@@ -490,6 +490,7 @@ input{
     display: flex;
     align-items: end;
     padding: 0 50px 30px 16px;
+    height: 100%;
 }
 .f-f-card{
     position: relative;
@@ -1181,8 +1182,7 @@ input{
 .search-input-block{
     position: relative;
 }
-.search-input-block:after{
-    content: url("assets/search-normal.png");
+.search-btn{
     position: absolute;
     top: -50%;
     transform: translateY(50%);
@@ -1404,6 +1404,75 @@ input{
     overflow: hidden;
     border: none;
     transition: all .3s;
+}
+.modal_container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal_block{
+    background: #ffffff;
+    width: 470px;
+    height: 542px;
+    border-radius: 16px;
+    padding: 34px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal_text_title{
+    font-size: 34px;
+    color: #579EFF;
+}
+.modal_text{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 10px;
+    text-align: center;
+}
+.modal_form_block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px ;
+    padding: 0 70px;
+}
+.modal_form_input{
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 12px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.modal_btn{
+    width: 100%;
+    background: linear-gradient(#579EFF 0% , #0061E7 100% );
+    padding: 20px 120px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.modal_btn:hover{
+    background: linear-gradient(#0061E7  0% , #579EFF  100%);
+}
+.modal_text_p{
+    font-size: 12px;
+    text-align: center;
+    width: 65%;
+    color: rgba(34, 34, 34, 0.7);
+    margin-top: 20px;
+}
+.modal_view{
+    display: flex;
 }
 @media (max-width: 2685px) {
     .patner-main-item:after {
@@ -2219,7 +2288,6 @@ input{
     .p-c-card{
         margin-right: 0;
         margin-top: 16px;
-        width: 275px;
     }
     .link-title-pages p{
         font-size: 12px;
@@ -2248,6 +2316,29 @@ input{
     }
     .r-n-block_link{
         display: flex;
+    }
+    .modal_block{
+        width: 330px;
+        height: 380px;
+        padding: 24px 20px;
+    }
+    .modal_btn{
+        padding: 14px 78px;
+        font-size: 12px;
+    }
+    .modal_text_title{
+        font-size: 24px;
+    }
+    .modal_text{
+        font-size: 12px;
+        width: 70%;
+    }
+    .modal_form_input{
+        padding: 12px 16px ;
+        font-size: 12px;
+    }
+    .p-btn-more-info{
+        font-size: 16px;
     }
 /*    footer*/
     .f-block-b{
@@ -2325,9 +2416,7 @@ input{
     .search-input-block{
         max-width: 36px;
     }
-    .search-input-block:after {
-        content: url(assets/search-normal.png);
-        font-size: 14px;
+    .search-btn {
         width: 36px;
         height: 36px;
         border-radius: 12px;
@@ -2335,8 +2424,25 @@ input{
     .search-input{
         padding: 8px 14px;
     }
+    .search-input-block {
+        width: 65%;
+    }
     .on_maxWeight{
         max-width: 100%;
+    }
+    .width_100{
+        max-width: 100%;
+    }
+    .p-text-width{
+        width: 50%;
+    }
+    .p-font_wight_des{
+        display: block;
+        width: 60%;
+        text-align: end;
+    }
+    .p-ul-des-text{
+        font-size: 14px;
     }
 }
 @media (max-width: 375px) {
@@ -2351,9 +2457,6 @@ input{
     }
     .c-content{
         width: 65%;
-    }
-    .p-c-card{
-        width: 190px;
     }
 }
 @media (max-width: 320px) {
